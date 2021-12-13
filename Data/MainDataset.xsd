@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MainDataset" targetNamespace="http://tempuri.org/MainDataset.xsd" xmlns:mstns="http://tempuri.org/MainDataset.xsd" xmlns="http://tempuri.org/MainDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Web.config)" ParameterPrefix=":" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ConnectionString.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EmployeeTableAdapter" GeneratorDataComponentClassName="EmployeeTableAdapter" Name="Employee" UserDataComponentName="EmployeeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_EMPLOYEE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="EMP_CODE" DataSetColumn="EMP_CODE" />
+              <Mapping SourceColumn="EMP_FNAME" DataSetColumn="EMP_FNAME" />
+              <Mapping SourceColumn="EMP_LNAME" DataSetColumn="EMP_LNAME" />
+              <Mapping SourceColumn="EMP_MOBILE_CODE" DataSetColumn="EMP_MOBILE_CODE" />
+              <Mapping SourceColumn="EMP_MOBILE" DataSetColumn="EMP_MOBILE" />
+              <Mapping SourceColumn="EMP_TYPE" DataSetColumn="EMP_TYPE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobTableAdapter" GeneratorDataComponentClassName="JobTableAdapter" Name="Job" UserDataComponentName="JobTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="JOB_DIVISION" DataSetColumn="JOB_DIVISION" />
+              <Mapping SourceColumn="JOB_OOUTLET" DataSetColumn="JOB_OOUTLET" />
+              <Mapping SourceColumn="JOB_BRAND" DataSetColumn="JOB_BRAND" />
+              <Mapping SourceColumn="JOB_CATEGORY" DataSetColumn="JOB_CATEGORY" />
+              <Mapping SourceColumn="JOB_MODEL" DataSetColumn="JOB_MODEL" />
+              <Mapping SourceColumn="JOB_SN" DataSetColumn="JOB_SN" />
+              <Mapping SourceColumn="JOB_DATE" DataSetColumn="JOB_DATE" />
+              <Mapping SourceColumn="JOB_PHYS" DataSetColumn="JOB_PHYS" />
+              <Mapping SourceColumn="JOB_ITEMS" DataSetColumn="JOB_ITEMS" />
+              <Mapping SourceColumn="JOB_PRB" DataSetColumn="JOB_PRB" />
+              <Mapping SourceColumn="JOB_STATUS" DataSetColumn="JOB_STATUS" />
+              <Mapping SourceColumn="JOB_CUS_CODE" DataSetColumn="JOB_CUS_CODE" />
+              <Mapping SourceColumn="JOB_FWAR" DataSetColumn="JOB_FWAR" />
+              <Mapping SourceColumn="JOB_WAR_NBR" DataSetColumn="JOB_WAR_NBR" />
+              <Mapping SourceColumn="JOB_WAR_DATE" DataSetColumn="JOB_WAR_DATE" />
+              <Mapping SourceColumn="JOB_WAR_EDATE" DataSetColumn="JOB_WAR_EDATE" />
+              <Mapping SourceColumn="JOB_COMMENT" DataSetColumn="JOB_COMMENT" />
+              <Mapping SourceColumn="JOB_FNEED_PARTS" DataSetColumn="JOB_FNEED_PARTS" />
+              <Mapping SourceColumn="JOB_DLST_CODE" DataSetColumn="JOB_DLST_CODE" />
+              <Mapping SourceColumn="JOB_UNS_VOLT" DataSetColumn="JOB_UNS_VOLT" />
+              <Mapping SourceColumn="JOB_WAT_PRS" DataSetColumn="JOB_WAT_PRS" />
+              <Mapping SourceColumn="JOB_OVR_CAP" DataSetColumn="JOB_OVR_CAP" />
+              <Mapping SourceColumn="JOB_CUST_ANS" DataSetColumn="JOB_CUST_ANS" />
+              <Mapping SourceColumn="JOB_DLST_CODE_CALL" DataSetColumn="JOB_DLST_CODE_CALL" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByJobCode" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByJobCode" GeneratorSourceName="FillByJobCode" GetMethodModifier="Public" GetMethodName="GetDataByJobCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByJobCode" UserSourceName="FillByJobCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB
+where (JOB_CODE =?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="PARAM1" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="String" Direction="Input" ParameterName=":Code" Precision="0" ProviderType="Varchar2" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobTechTableAdapter" GeneratorDataComponentClassName="JobTechTableAdapter" Name="JobTech" UserDataComponentName="JobTechTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_TECHS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JTEC_CODE" DataSetColumn="JTEC_CODE" />
+              <Mapping SourceColumn="EMP_CODE" DataSetColumn="EMP_CODE" />
+              <Mapping SourceColumn="JTEC_DATE" DataSetColumn="JTEC_DATE" />
+              <Mapping SourceColumn="JTEC_EDATE" DataSetColumn="JTEC_EDATE" />
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CustomerTableAdapter" GeneratorDataComponentClassName="CustomerTableAdapter" Name="Customer" UserDataComponentName="CustomerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_CUSTOMER</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CUS_CODE" DataSetColumn="CUS_CODE" />
+              <Mapping SourceColumn="CUS_NAME" DataSetColumn="CUS_NAME" />
+              <Mapping SourceColumn="CUS_MNAME" DataSetColumn="CUS_MNAME" />
+              <Mapping SourceColumn="CUS_LNAME" DataSetColumn="CUS_LNAME" />
+              <Mapping SourceColumn="CUS_ADDRESS" DataSetColumn="CUS_ADDRESS" />
+              <Mapping SourceColumn="CUS_TEL1" DataSetColumn="CUS_TEL1" />
+              <Mapping SourceColumn="CUS_TEL2" DataSetColumn="CUS_TEL2" />
+              <Mapping SourceColumn="CUS_MOBILE" DataSetColumn="CUS_MOBILE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BrandTableAdapter" GeneratorDataComponentClassName="BrandTableAdapter" Name="Brand" UserDataComponentName="BrandTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_BRAND</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BRAND_CODE" DataSetColumn="BRAND_CODE" />
+              <Mapping SourceColumn="BRAND_DESC" DataSetColumn="BRAND_DESC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VisitTableAdapter" GeneratorDataComponentClassName="VisitTableAdapter" Name="Visit" UserDataComponentName="VisitTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_TECHS_VISIT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VISIT_CODE" DataSetColumn="VISIT_CODE" />
+              <Mapping SourceColumn="JTEC_CODE" DataSetColumn="JTEC_CODE" />
+              <Mapping SourceColumn="VISIT_DATE" DataSetColumn="VISIT_DATE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProductTableAdapter" GeneratorDataComponentClassName="ProductTableAdapter" Name="Product" UserDataComponentName="ProductTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_PRODUCT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PRODUCT_CODE" DataSetColumn="PRODUCT_CODE" />
+              <Mapping SourceColumn="PRODUCT_DESC" DataSetColumn="PRODUCT_DESC" />
+              <Mapping SourceColumn="DIVISION_CODE" DataSetColumn="DIVISION_CODE" />
+              <Mapping SourceColumn="BRAND_CODE" DataSetColumn="BRAND_CODE" />
+              <Mapping SourceColumn="CATEGORY_CODE" DataSetColumn="CATEGORY_CODE" />
+              <Mapping SourceColumn="MODEL_NO" DataSetColumn="MODEL_NO" />
+              <Mapping SourceColumn="PRODUCT_ACTIVE" DataSetColumn="PRODUCT_ACTIVE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+              <Mapping SourceColumn="LAST_UPDATED_PICTURE" DataSetColumn="LAST_UPDATED_PICTURE" />
+              <Mapping SourceColumn="PICTURE_FILENAME" DataSetColumn="PICTURE_FILENAME" />
+              <Mapping SourceColumn="PRODUCT_TAG" DataSetColumn="PRODUCT_TAG" />
+              <Mapping SourceColumn="PRODUCT_QTY_AVAILABLE" DataSetColumn="PRODUCT_QTY_AVAILABLE" />
+              <Mapping SourceColumn="PRODUCT_PRICE_USD" DataSetColumn="PRODUCT_PRICE_USD" />
+              <Mapping SourceColumn="PRODUCT_PRICE_LBP" DataSetColumn="PRODUCT_PRICE_LBP" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PartNeededTableAdapter" GeneratorDataComponentClassName="PartNeededTableAdapter" Name="PartNeeded" UserDataComponentName="PartNeededTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_NEEDED_PARTS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NPART_CODE" DataSetColumn="NPART_CODE" />
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="PRODUCT_CODE" DataSetColumn="PRODUCT_CODE" />
+              <Mapping SourceColumn="NPART_QTY" DataSetColumn="NPART_QTY" />
+              <Mapping SourceColumn="NPART_COMMENT" DataSetColumn="NPART_COMMENT" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobTechDetailTableAdapter" GeneratorDataComponentClassName="JobTechDetailTableAdapter" Name="JobTechDetail" UserDataComponentName="JobTechDetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_TECHS_DETAILS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JTECD_CODE" DataSetColumn="JTECD_CODE" />
+              <Mapping SourceColumn="JTEC_CODE" DataSetColumn="JTEC_CODE" />
+              <Mapping SourceColumn="JTECD_DATE" DataSetColumn="JTECD_DATE" />
+              <Mapping SourceColumn="JTECD_TIME" DataSetColumn="JTECD_TIME" />
+              <Mapping SourceColumn="JTECD_STATUS" DataSetColumn="JTECD_STATUS" />
+              <Mapping SourceColumn="JTECD_COMMENT" DataSetColumn="JTECD_COMMENT" />
+              <Mapping SourceColumn="JTECD_CUSER" DataSetColumn="JTECD_CUSER" />
+              <Mapping SourceColumn="JTECD_CDATE" DataSetColumn="JTECD_CDATE" />
+              <Mapping SourceColumn="JTECD_TASK_CODE" DataSetColumn="JTECD_TASK_CODE" />
+              <Mapping SourceColumn="JTECD_FFIND_CLIENT" DataSetColumn="JTECD_FFIND_CLIENT" />
+              <Mapping SourceColumn="JTECD_FCALL_CMP" DataSetColumn="JTECD_FCALL_CMP" />
+              <Mapping SourceColumn="JTECD_CALL_EMP_CODE" DataSetColumn="JTECD_CALL_EMP_CODE" />
+              <Mapping SourceColumn="JTECD_FCALLBACK" DataSetColumn="JTECD_FCALLBACK" />
+              <Mapping SourceColumn="JTECD_CALLBACK_RESULT" DataSetColumn="JTECD_CALLBACK_RESULT" />
+              <Mapping SourceColumn="JTECD_EDATE" DataSetColumn="JTECD_EDATE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobPartsTableAdapter" GeneratorDataComponentClassName="JobPartsTableAdapter" Name="JobParts" UserDataComponentName="JobPartsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_PARTS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JPART_CODE" DataSetColumn="JPART_CODE" />
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="PRODUCT_CODE" DataSetColumn="PRODUCT_CODE" />
+              <Mapping SourceColumn="JPART_ISSUE" DataSetColumn="JPART_ISSUE" />
+              <Mapping SourceColumn="JPART_QTY_USED" DataSetColumn="JPART_QTY_USED" />
+              <Mapping SourceColumn="JPART_IDATE" DataSetColumn="JPART_IDATE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VTTechDetailsTableAdapter" GeneratorDataComponentClassName="VTTechDetailsTableAdapter" Name="VTTechDetails" UserDataComponentName="VTTechDetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_VIEWTECH_JOB_TECHS_DETAILS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JTEC_CODE" DataSetColumn="JTEC_CODE" />
+              <Mapping SourceColumn="JTECD_DATE" DataSetColumn="JTECD_DATE" />
+              <Mapping SourceColumn="JTECD_TIME" DataSetColumn="JTECD_TIME" />
+              <Mapping SourceColumn="JTECD_STATUS" DataSetColumn="JTECD_STATUS" />
+              <Mapping SourceColumn="JTECD_COMMENT" DataSetColumn="JTECD_COMMENT" />
+              <Mapping SourceColumn="JTECD_CUSER" DataSetColumn="JTECD_CUSER" />
+              <Mapping SourceColumn="JTECD_CDATE" DataSetColumn="JTECD_CDATE" />
+              <Mapping SourceColumn="JTECD_TASK_CODE" DataSetColumn="JTECD_TASK_CODE" />
+              <Mapping SourceColumn="JTECD_FFIND_CLIENT" DataSetColumn="JTECD_FFIND_CLIENT" />
+              <Mapping SourceColumn="JTECD_FCALL_CMP" DataSetColumn="JTECD_FCALL_CMP" />
+              <Mapping SourceColumn="JTECD_CALL_EMP_CODE" DataSetColumn="JTECD_CALL_EMP_CODE" />
+              <Mapping SourceColumn="JTECD_FCALLBACK" DataSetColumn="JTECD_FCALLBACK" />
+              <Mapping SourceColumn="JTECD_CALLBACK_RESULT" DataSetColumn="JTECD_CALLBACK_RESULT" />
+              <Mapping SourceColumn="JTECD_EDATE" DataSetColumn="JTECD_EDATE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="InsertQuery" Modifier="Public" Name="InsertQuery" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="InsertQuery">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>INSERT INTO V_VIEWTECH_JOB_TECHS_DETAILS
+                      (JTECD_COMMENT)
+VALUES     (:PARAM1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="PARAM1" ColumnName="JTECD_COMMENT" DataSourceName="" DataTypeServer="unknown" DbType="Object" Direction="Input" ParameterName=":PARAM1" Precision="0" Scale="0" Size="1024" SourceColumn="JTECD_COMMENT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobPaymentsTableAdapter" GeneratorDataComponentClassName="JobPaymentsTableAdapter" Name="JobPayments" UserDataComponentName="JobPaymentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_VIEWTECH_JOB_PAYMENTS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="PAYMENT_DATE" DataSetColumn="PAYMENT_DATE" />
+              <Mapping SourceColumn="PAYMENT_CURR" DataSetColumn="PAYMENT_CURR" />
+              <Mapping SourceColumn="PART_VALUE" DataSetColumn="PART_VALUE" />
+              <Mapping SourceColumn="LABOR_VALUE" DataSetColumn="LABOR_VALUE" />
+              <Mapping SourceColumn="OTHER_VALUE" DataSetColumn="OTHER_VALUE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="JobStatusTableAdapter" GeneratorDataComponentClassName="JobStatusTableAdapter" Name="JobStatus" UserDataComponentName="JobStatusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_TECHS_D_STATUS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JTECD_STATUS" DataSetColumn="JTECD_STATUS" />
+              <Mapping SourceColumn="JTECD_STATUS_DESC" DataSetColumn="JTECD_STATUS_DESC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PaymentTableAdapter" GeneratorDataComponentClassName="PaymentTableAdapter" Name="Payment" UserDataComponentName="PaymentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_VIEWTECH_JOB_PAYMENTS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JOB_CODE" DataSetColumn="JOB_CODE" />
+              <Mapping SourceColumn="PAYMENT_DATE" DataSetColumn="PAYMENT_DATE" />
+              <Mapping SourceColumn="PAYMENT_CURR" DataSetColumn="PAYMENT_CURR" />
+              <Mapping SourceColumn="PART_VALUE" DataSetColumn="PART_VALUE" />
+              <Mapping SourceColumn="LABOR_VALUE" DataSetColumn="LABOR_VALUE" />
+              <Mapping SourceColumn="OTHER_VALUE" DataSetColumn="OTHER_VALUE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="WarrentyTableAdapter" GeneratorDataComponentClassName="WarrentyTableAdapter" Name="Warrenty" UserDataComponentName="WarrentyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_WARRANTIES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="WAR_SN" DataSetColumn="WAR_SN" />
+              <Mapping SourceColumn="WAR_MODEL" DataSetColumn="WAR_MODEL" />
+              <Mapping SourceColumn="WAR_NBR" DataSetColumn="WAR_NBR" />
+              <Mapping SourceColumn="WAR_SDATE" DataSetColumn="WAR_SDATE" />
+              <Mapping SourceColumn="WAR_EDATE" DataSetColumn="WAR_EDATE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBySerialNumber" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBySerialNumber" GeneratorSourceName="FillBySerialNumber" GetMethodModifier="Public" GetMethodName="GetDataBySerialNumber" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBySerialNumber" UserSourceName="FillBySerialNumber">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     *
+FROM         VIEWTECH.V_MACC_WARRANTIES
+WHERE     (WAR_SN = WAR_SN_param)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PartReturnedTableAdapter" GeneratorDataComponentClassName="PartReturnedTableAdapter" Name="PartReturned" UserDataComponentName="PartReturnedTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_JOB_RETURNS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JRET_CODE" DataSetColumn="JRET_CODE" />
+              <Mapping SourceColumn="JPART_CODE" DataSetColumn="JPART_CODE" />
+              <Mapping SourceColumn="JRET_NBR" DataSetColumn="JRET_NBR" />
+              <Mapping SourceColumn="JRET_RQTY" DataSetColumn="JRET_RQTY" />
+              <Mapping SourceColumn="JRET_IDATE" DataSetColumn="JRET_IDATE" />
+              <Mapping SourceColumn="LAST_UPDATED_DATE" DataSetColumn="LAST_UPDATED_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CompanyTableAdapter" GeneratorDataComponentClassName="CompanyTableAdapter" Name="Company" UserDataComponentName="CompanyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM VIEWTECH.V_MACC_COMP_PARAMETERS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CO_CODE" DataSetColumn="CO_CODE" />
+              <Mapping SourceColumn="CO_NAME" DataSetColumn="CO_NAME" />
+              <Mapping SourceColumn="BR_CODE" DataSetColumn="BR_CODE" />
+              <Mapping SourceColumn="BR_NAME" DataSetColumn="BR_NAME" />
+              <Mapping SourceColumn="CO_ADDRESS" DataSetColumn="CO_ADDRESS" />
+              <Mapping SourceColumn="CO_VATREF" DataSetColumn="CO_VATREF" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="ConnectionString (Web.config)" DbObjectName="GSAV.GET_WARRANTY" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="GET_WARRANTY" MethodsParameterType="CLR" Modifier="Public" Name="GET_WARRANTY" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GET_WARRANTY">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>GSAV.GET_WARRANTY</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Input" ParameterName="P_JOB_CODE" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Input" ParameterName="P_SN" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Output" ParameterName="P_WARRANTY_NO" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="DATE" DbType="Date" Direction="Output" ParameterName="P_WARRANTY_SDATE" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="DATE" DbType="Date" Direction="Output" ParameterName="P_WARRANTY_EDATE" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MainDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MainDataset" msprop:Generator_UserDSName="MainDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Employee" msprop:Generator_TableClassName="EmployeeDataTable" msprop:Generator_TableVarName="tableEmployee" msprop:Generator_TablePropName="Employee" msprop:Generator_RowDeletingName="EmployeeRowDeleting" msprop:Generator_RowChangingName="EmployeeRowChanging" msprop:Generator_RowEvHandlerName="EmployeeRowChangeEventHandler" msprop:Generator_RowDeletedName="EmployeeRowDeleted" msprop:Generator_UserTableName="Employee" msprop:Generator_RowChangedName="EmployeeRowChanged" msprop:Generator_RowEvArgName="EmployeeRowChangeEvent" msprop:Generator_RowClassName="EmployeeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_CODE" msprop:Generator_ColumnVarNameInTable="columnEMP_CODE" msprop:Generator_ColumnPropNameInRow="EMP_CODE" msprop:Generator_ColumnPropNameInTable="EMP_CODEColumn" msprop:Generator_UserColumnName="EMP_CODE" type="xs:long" />
+              <xs:element name="EMP_FNAME" msprop:Generator_ColumnVarNameInTable="columnEMP_FNAME" msprop:Generator_ColumnPropNameInRow="EMP_FNAME" msprop:Generator_ColumnPropNameInTable="EMP_FNAMEColumn" msprop:Generator_UserColumnName="EMP_FNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_LNAME" msprop:Generator_ColumnVarNameInTable="columnEMP_LNAME" msprop:Generator_ColumnPropNameInRow="EMP_LNAME" msprop:Generator_ColumnPropNameInTable="EMP_LNAMEColumn" msprop:Generator_UserColumnName="EMP_LNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_MOBILE_CODE" msprop:Generator_ColumnVarNameInTable="columnEMP_MOBILE_CODE" msprop:Generator_ColumnPropNameInRow="EMP_MOBILE_CODE" msprop:Generator_ColumnPropNameInTable="EMP_MOBILE_CODEColumn" msprop:Generator_UserColumnName="EMP_MOBILE_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_MOBILE" msprop:Generator_ColumnVarNameInTable="columnEMP_MOBILE" msprop:Generator_ColumnPropNameInRow="EMP_MOBILE" msprop:Generator_ColumnPropNameInTable="EMP_MOBILEColumn" msprop:Generator_UserColumnName="EMP_MOBILE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EMP_TYPE" msprop:Generator_ColumnVarNameInTable="columnEMP_TYPE" msprop:Generator_ColumnPropNameInRow="EMP_TYPE" msprop:Generator_ColumnPropNameInTable="EMP_TYPEColumn" msprop:Generator_UserColumnName="EMP_TYPE" type="xs:int" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Job" msprop:Generator_TableClassName="JobDataTable" msprop:Generator_TableVarName="tableJob" msprop:Generator_TablePropName="Job" msprop:Generator_RowDeletingName="JobRowDeleting" msprop:Generator_RowChangingName="JobRowChanging" msprop:Generator_RowEvHandlerName="JobRowChangeEventHandler" msprop:Generator_RowDeletedName="JobRowDeleted" msprop:Generator_UserTableName="Job" msprop:Generator_RowChangedName="JobRowChanged" msprop:Generator_RowEvArgName="JobRowChangeEvent" msprop:Generator_RowClassName="JobRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_DIVISION" msprop:Generator_ColumnVarNameInTable="columnJOB_DIVISION" msprop:Generator_ColumnPropNameInRow="JOB_DIVISION" msprop:Generator_ColumnPropNameInTable="JOB_DIVISIONColumn" msprop:Generator_UserColumnName="JOB_DIVISION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_OOUTLET" msprop:Generator_ColumnVarNameInTable="columnJOB_OOUTLET" msprop:Generator_ColumnPropNameInRow="JOB_OOUTLET" msprop:Generator_ColumnPropNameInTable="JOB_OOUTLETColumn" msprop:Generator_UserColumnName="JOB_OOUTLET" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_BRAND" msprop:Generator_ColumnVarNameInTable="columnJOB_BRAND" msprop:Generator_ColumnPropNameInRow="JOB_BRAND" msprop:Generator_ColumnPropNameInTable="JOB_BRANDColumn" msprop:Generator_UserColumnName="JOB_BRAND" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_CATEGORY" msprop:Generator_ColumnVarNameInTable="columnJOB_CATEGORY" msprop:Generator_ColumnPropNameInRow="JOB_CATEGORY" msprop:Generator_ColumnPropNameInTable="JOB_CATEGORYColumn" msprop:Generator_UserColumnName="JOB_CATEGORY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_MODEL" msprop:Generator_ColumnVarNameInTable="columnJOB_MODEL" msprop:Generator_ColumnPropNameInRow="JOB_MODEL" msprop:Generator_ColumnPropNameInTable="JOB_MODELColumn" msprop:Generator_UserColumnName="JOB_MODEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_SN" msprop:Generator_ColumnVarNameInTable="columnJOB_SN" msprop:Generator_ColumnPropNameInRow="JOB_SN" msprop:Generator_ColumnPropNameInTable="JOB_SNColumn" msprop:Generator_UserColumnName="JOB_SN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_DATE" msprop:Generator_ColumnVarNameInTable="columnJOB_DATE" msprop:Generator_ColumnPropNameInRow="JOB_DATE" msprop:Generator_ColumnPropNameInTable="JOB_DATEColumn" msprop:Generator_UserColumnName="JOB_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JOB_PHYS" msprop:Generator_ColumnVarNameInTable="columnJOB_PHYS" msprop:Generator_ColumnPropNameInRow="JOB_PHYS" msprop:Generator_ColumnPropNameInTable="JOB_PHYSColumn" msprop:Generator_UserColumnName="JOB_PHYS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_ITEMS" msprop:Generator_ColumnVarNameInTable="columnJOB_ITEMS" msprop:Generator_ColumnPropNameInRow="JOB_ITEMS" msprop:Generator_ColumnPropNameInTable="JOB_ITEMSColumn" msprop:Generator_UserColumnName="JOB_ITEMS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_PRB" msprop:Generator_ColumnVarNameInTable="columnJOB_PRB" msprop:Generator_ColumnPropNameInRow="JOB_PRB" msprop:Generator_ColumnPropNameInTable="JOB_PRBColumn" msprop:Generator_UserColumnName="JOB_PRB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_STATUS" msprop:Generator_ColumnVarNameInTable="columnJOB_STATUS" msprop:Generator_ColumnPropNameInRow="JOB_STATUS" msprop:Generator_ColumnPropNameInTable="JOB_STATUSColumn" msprop:Generator_UserColumnName="JOB_STATUS" type="xs:int" minOccurs="0" />
+              <xs:element name="JOB_CUS_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CUS_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CUS_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CUS_CODEColumn" msprop:Generator_UserColumnName="JOB_CUS_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JOB_FWAR" msprop:Generator_ColumnVarNameInTable="columnJOB_FWAR" msprop:Generator_ColumnPropNameInRow="JOB_FWAR" msprop:Generator_ColumnPropNameInTable="JOB_FWARColumn" msprop:Generator_UserColumnName="JOB_FWAR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_WAR_NBR" msprop:Generator_ColumnVarNameInTable="columnJOB_WAR_NBR" msprop:Generator_ColumnPropNameInRow="JOB_WAR_NBR" msprop:Generator_ColumnPropNameInTable="JOB_WAR_NBRColumn" msprop:Generator_UserColumnName="JOB_WAR_NBR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_WAR_DATE" msprop:Generator_ColumnVarNameInTable="columnJOB_WAR_DATE" msprop:Generator_ColumnPropNameInRow="JOB_WAR_DATE" msprop:Generator_ColumnPropNameInTable="JOB_WAR_DATEColumn" msprop:Generator_UserColumnName="JOB_WAR_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JOB_WAR_EDATE" msprop:Generator_ColumnVarNameInTable="columnJOB_WAR_EDATE" msprop:Generator_ColumnPropNameInRow="JOB_WAR_EDATE" msprop:Generator_ColumnPropNameInTable="JOB_WAR_EDATEColumn" msprop:Generator_UserColumnName="JOB_WAR_EDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JOB_COMMENT" msprop:Generator_ColumnVarNameInTable="columnJOB_COMMENT" msprop:Generator_ColumnPropNameInRow="JOB_COMMENT" msprop:Generator_ColumnPropNameInTable="JOB_COMMENTColumn" msprop:Generator_UserColumnName="JOB_COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_FNEED_PARTS" msprop:Generator_ColumnVarNameInTable="columnJOB_FNEED_PARTS" msprop:Generator_ColumnPropNameInRow="JOB_FNEED_PARTS" msprop:Generator_ColumnPropNameInTable="JOB_FNEED_PARTSColumn" msprop:Generator_UserColumnName="JOB_FNEED_PARTS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_DLST_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_DLST_CODE" msprop:Generator_ColumnPropNameInRow="JOB_DLST_CODE" msprop:Generator_ColumnPropNameInTable="JOB_DLST_CODEColumn" msprop:Generator_UserColumnName="JOB_DLST_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="JOB_UNS_VOLT" msprop:Generator_ColumnVarNameInTable="columnJOB_UNS_VOLT" msprop:Generator_ColumnPropNameInRow="JOB_UNS_VOLT" msprop:Generator_ColumnPropNameInTable="JOB_UNS_VOLTColumn" msprop:Generator_UserColumnName="JOB_UNS_VOLT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_WAT_PRS" msprop:Generator_ColumnVarNameInTable="columnJOB_WAT_PRS" msprop:Generator_ColumnPropNameInRow="JOB_WAT_PRS" msprop:Generator_ColumnPropNameInTable="JOB_WAT_PRSColumn" msprop:Generator_UserColumnName="JOB_WAT_PRS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_OVR_CAP" msprop:Generator_ColumnVarNameInTable="columnJOB_OVR_CAP" msprop:Generator_ColumnPropNameInRow="JOB_OVR_CAP" msprop:Generator_ColumnPropNameInTable="JOB_OVR_CAPColumn" msprop:Generator_UserColumnName="JOB_OVR_CAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_CUST_ANS" msprop:Generator_ColumnVarNameInTable="columnJOB_CUST_ANS" msprop:Generator_ColumnPropNameInRow="JOB_CUST_ANS" msprop:Generator_ColumnPropNameInTable="JOB_CUST_ANSColumn" msprop:Generator_UserColumnName="JOB_CUST_ANS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JOB_DLST_CODE_CALL" msprop:Generator_ColumnVarNameInTable="columnJOB_DLST_CODE_CALL" msprop:Generator_ColumnPropNameInRow="JOB_DLST_CODE_CALL" msprop:Generator_ColumnPropNameInTable="JOB_DLST_CODE_CALLColumn" msprop:Generator_UserColumnName="JOB_DLST_CODE_CALL" type="xs:int" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobTech" msprop:Generator_TableClassName="JobTechDataTable" msprop:Generator_TableVarName="tableJobTech" msprop:Generator_TablePropName="JobTech" msprop:Generator_RowDeletingName="JobTechRowDeleting" msprop:Generator_RowChangingName="JobTechRowChanging" msprop:Generator_RowEvHandlerName="JobTechRowChangeEventHandler" msprop:Generator_RowDeletedName="JobTechRowDeleted" msprop:Generator_UserTableName="JobTech" msprop:Generator_RowChangedName="JobTechRowChanged" msprop:Generator_RowEvArgName="JobTechRowChangeEvent" msprop:Generator_RowClassName="JobTechRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JTEC_CODE" msprop:Generator_ColumnVarNameInTable="columnJTEC_CODE" msprop:Generator_ColumnPropNameInRow="JTEC_CODE" msprop:Generator_ColumnPropNameInTable="JTEC_CODEColumn" msprop:Generator_UserColumnName="JTEC_CODE" type="xs:long" />
+              <xs:element name="EMP_CODE" msprop:Generator_ColumnVarNameInTable="columnEMP_CODE" msprop:Generator_ColumnPropNameInRow="EMP_CODE" msprop:Generator_ColumnPropNameInTable="EMP_CODEColumn" msprop:Generator_UserColumnName="EMP_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JTEC_DATE" msprop:Generator_ColumnVarNameInTable="columnJTEC_DATE" msprop:Generator_ColumnPropNameInRow="JTEC_DATE" msprop:Generator_ColumnPropNameInTable="JTEC_DATEColumn" msprop:Generator_UserColumnName="JTEC_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTEC_EDATE" msprop:Generator_ColumnVarNameInTable="columnJTEC_EDATE" msprop:Generator_ColumnPropNameInRow="JTEC_EDATE" msprop:Generator_ColumnPropNameInTable="JTEC_EDATEColumn" msprop:Generator_UserColumnName="JTEC_EDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Customer" msprop:Generator_TableClassName="CustomerDataTable" msprop:Generator_TableVarName="tableCustomer" msprop:Generator_RowChangedName="CustomerRowChanged" msprop:Generator_TablePropName="Customer" msprop:Generator_RowDeletingName="CustomerRowDeleting" msprop:Generator_RowChangingName="CustomerRowChanging" msprop:Generator_RowEvHandlerName="CustomerRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomerRowDeleted" msprop:Generator_RowClassName="CustomerRow" msprop:Generator_UserTableName="Customer" msprop:Generator_RowEvArgName="CustomerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUS_CODE" msprop:Generator_ColumnVarNameInTable="columnCUS_CODE" msprop:Generator_ColumnPropNameInRow="CUS_CODE" msprop:Generator_ColumnPropNameInTable="CUS_CODEColumn" msprop:Generator_UserColumnName="CUS_CODE" type="xs:int" />
+              <xs:element name="CUS_NAME" msprop:Generator_ColumnVarNameInTable="columnCUS_NAME" msprop:Generator_ColumnPropNameInRow="CUS_NAME" msprop:Generator_ColumnPropNameInTable="CUS_NAMEColumn" msprop:Generator_UserColumnName="CUS_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_MNAME" msprop:Generator_ColumnVarNameInTable="columnCUS_MNAME" msprop:Generator_ColumnPropNameInRow="CUS_MNAME" msprop:Generator_ColumnPropNameInTable="CUS_MNAMEColumn" msprop:Generator_UserColumnName="CUS_MNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_LNAME" msprop:Generator_ColumnVarNameInTable="columnCUS_LNAME" msprop:Generator_ColumnPropNameInRow="CUS_LNAME" msprop:Generator_ColumnPropNameInTable="CUS_LNAMEColumn" msprop:Generator_UserColumnName="CUS_LNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnCUS_ADDRESS" msprop:Generator_ColumnPropNameInRow="CUS_ADDRESS" msprop:Generator_ColumnPropNameInTable="CUS_ADDRESSColumn" msprop:Generator_UserColumnName="CUS_ADDRESS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_TEL1" msprop:Generator_ColumnVarNameInTable="columnCUS_TEL1" msprop:Generator_ColumnPropNameInRow="CUS_TEL1" msprop:Generator_ColumnPropNameInTable="CUS_TEL1Column" msprop:Generator_UserColumnName="CUS_TEL1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_TEL2" msprop:Generator_ColumnVarNameInTable="columnCUS_TEL2" msprop:Generator_ColumnPropNameInRow="CUS_TEL2" msprop:Generator_ColumnPropNameInTable="CUS_TEL2Column" msprop:Generator_UserColumnName="CUS_TEL2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUS_MOBILE" msprop:Generator_ColumnVarNameInTable="columnCUS_MOBILE" msprop:Generator_ColumnPropNameInRow="CUS_MOBILE" msprop:Generator_ColumnPropNameInTable="CUS_MOBILEColumn" msprop:Generator_UserColumnName="CUS_MOBILE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Brand" msprop:Generator_TableClassName="BrandDataTable" msprop:Generator_TableVarName="tableBrand" msprop:Generator_RowChangedName="BrandRowChanged" msprop:Generator_TablePropName="Brand" msprop:Generator_RowDeletingName="BrandRowDeleting" msprop:Generator_RowChangingName="BrandRowChanging" msprop:Generator_RowEvHandlerName="BrandRowChangeEventHandler" msprop:Generator_RowDeletedName="BrandRowDeleted" msprop:Generator_RowClassName="BrandRow" msprop:Generator_UserTableName="Brand" msprop:Generator_RowEvArgName="BrandRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BRAND_CODE" msprop:Generator_ColumnVarNameInTable="columnBRAND_CODE" msprop:Generator_ColumnPropNameInRow="BRAND_CODE" msprop:Generator_ColumnPropNameInTable="BRAND_CODEColumn" msprop:Generator_UserColumnName="BRAND_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BRAND_DESC" msprop:Generator_ColumnVarNameInTable="columnBRAND_DESC" msprop:Generator_ColumnPropNameInRow="BRAND_DESC" msprop:Generator_ColumnPropNameInTable="BRAND_DESCColumn" msprop:Generator_UserColumnName="BRAND_DESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Visit" msprop:Generator_TableClassName="VisitDataTable" msprop:Generator_TableVarName="tableVisit" msprop:Generator_RowChangedName="VisitRowChanged" msprop:Generator_TablePropName="Visit" msprop:Generator_RowDeletingName="VisitRowDeleting" msprop:Generator_RowChangingName="VisitRowChanging" msprop:Generator_RowEvHandlerName="VisitRowChangeEventHandler" msprop:Generator_RowDeletedName="VisitRowDeleted" msprop:Generator_RowClassName="VisitRow" msprop:Generator_UserTableName="Visit" msprop:Generator_RowEvArgName="VisitRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VISIT_CODE" msprop:Generator_ColumnVarNameInTable="columnVISIT_CODE" msprop:Generator_ColumnPropNameInRow="VISIT_CODE" msprop:Generator_ColumnPropNameInTable="VISIT_CODEColumn" msprop:Generator_UserColumnName="VISIT_CODE" type="xs:long" />
+              <xs:element name="JTEC_CODE" msprop:Generator_ColumnVarNameInTable="columnJTEC_CODE" msprop:Generator_ColumnPropNameInRow="JTEC_CODE" msprop:Generator_ColumnPropNameInTable="JTEC_CODEColumn" msprop:Generator_UserColumnName="JTEC_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="VISIT_DATE" msprop:Generator_ColumnVarNameInTable="columnVISIT_DATE" msprop:Generator_ColumnPropNameInRow="VISIT_DATE" msprop:Generator_ColumnPropNameInTable="VISIT_DATEColumn" msprop:Generator_UserColumnName="VISIT_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Product" msprop:Generator_TableClassName="ProductDataTable" msprop:Generator_TableVarName="tableProduct" msprop:Generator_RowChangedName="ProductRowChanged" msprop:Generator_TablePropName="Product" msprop:Generator_RowDeletingName="ProductRowDeleting" msprop:Generator_RowChangingName="ProductRowChanging" msprop:Generator_RowEvHandlerName="ProductRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductRowDeleted" msprop:Generator_RowClassName="ProductRow" msprop:Generator_UserTableName="Product" msprop:Generator_RowEvArgName="ProductRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRODUCT_CODE" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_CODE" msprop:Generator_ColumnPropNameInRow="PRODUCT_CODE" msprop:Generator_ColumnPropNameInTable="PRODUCT_CODEColumn" msprop:Generator_UserColumnName="PRODUCT_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_DESC" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_DESC" msprop:Generator_ColumnPropNameInRow="PRODUCT_DESC" msprop:Generator_ColumnPropNameInTable="PRODUCT_DESCColumn" msprop:Generator_UserColumnName="PRODUCT_DESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIVISION_CODE" msprop:Generator_ColumnVarNameInTable="columnDIVISION_CODE" msprop:Generator_ColumnPropNameInRow="DIVISION_CODE" msprop:Generator_ColumnPropNameInTable="DIVISION_CODEColumn" msprop:Generator_UserColumnName="DIVISION_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BRAND_CODE" msprop:Generator_ColumnVarNameInTable="columnBRAND_CODE" msprop:Generator_ColumnPropNameInRow="BRAND_CODE" msprop:Generator_ColumnPropNameInTable="BRAND_CODEColumn" msprop:Generator_UserColumnName="BRAND_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CATEGORY_CODE" msprop:Generator_ColumnVarNameInTable="columnCATEGORY_CODE" msprop:Generator_ColumnPropNameInRow="CATEGORY_CODE" msprop:Generator_ColumnPropNameInTable="CATEGORY_CODEColumn" msprop:Generator_UserColumnName="CATEGORY_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODEL_NO" msprop:Generator_ColumnVarNameInTable="columnMODEL_NO" msprop:Generator_ColumnPropNameInRow="MODEL_NO" msprop:Generator_ColumnPropNameInTable="MODEL_NOColumn" msprop:Generator_UserColumnName="MODEL_NO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_ACTIVE" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_ACTIVE" msprop:Generator_ColumnPropNameInRow="PRODUCT_ACTIVE" msprop:Generator_ColumnPropNameInTable="PRODUCT_ACTIVEColumn" msprop:Generator_UserColumnName="PRODUCT_ACTIVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_PICTURE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_PICTURE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_PICTURE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_PICTUREColumn" msprop:Generator_UserColumnName="LAST_UPDATED_PICTURE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PICTURE_FILENAME" msprop:Generator_ColumnVarNameInTable="columnPICTURE_FILENAME" msprop:Generator_ColumnPropNameInRow="PICTURE_FILENAME" msprop:Generator_ColumnPropNameInTable="PICTURE_FILENAMEColumn" msprop:Generator_UserColumnName="PICTURE_FILENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_TAG" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_TAG" msprop:Generator_ColumnPropNameInRow="PRODUCT_TAG" msprop:Generator_ColumnPropNameInTable="PRODUCT_TAGColumn" msprop:Generator_UserColumnName="PRODUCT_TAG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_QTY_AVAILABLE" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_QTY_AVAILABLE" msprop:Generator_ColumnPropNameInRow="PRODUCT_QTY_AVAILABLE" msprop:Generator_ColumnPropNameInTable="PRODUCT_QTY_AVAILABLEColumn" msprop:Generator_UserColumnName="PRODUCT_QTY_AVAILABLE" type="xs:double" minOccurs="0" />
+              <xs:element name="PRODUCT_PRICE_USD" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_PRICE_USD" msprop:Generator_ColumnPropNameInRow="PRODUCT_PRICE_USD" msprop:Generator_ColumnPropNameInTable="PRODUCT_PRICE_USDColumn" msprop:Generator_UserColumnName="PRODUCT_PRICE_USD" type="xs:double" minOccurs="0" />
+              <xs:element name="PRODUCT_PRICE_LBP" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_PRICE_LBP" msprop:Generator_ColumnPropNameInRow="PRODUCT_PRICE_LBP" msprop:Generator_ColumnPropNameInTable="PRODUCT_PRICE_LBPColumn" msprop:Generator_UserColumnName="PRODUCT_PRICE_LBP" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PartNeeded" msprop:Generator_TableClassName="PartNeededDataTable" msprop:Generator_TableVarName="tablePartNeeded" msprop:Generator_TablePropName="PartNeeded" msprop:Generator_RowDeletingName="PartNeededRowDeleting" msprop:Generator_RowChangingName="PartNeededRowChanging" msprop:Generator_RowEvHandlerName="PartNeededRowChangeEventHandler" msprop:Generator_RowDeletedName="PartNeededRowDeleted" msprop:Generator_UserTableName="PartNeeded" msprop:Generator_RowChangedName="PartNeededRowChanged" msprop:Generator_RowEvArgName="PartNeededRowChangeEvent" msprop:Generator_RowClassName="PartNeededRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NPART_CODE" msprop:Generator_ColumnVarNameInTable="columnNPART_CODE" msprop:Generator_ColumnPropNameInRow="NPART_CODE" msprop:Generator_ColumnPropNameInTable="NPART_CODEColumn" msprop:Generator_UserColumnName="NPART_CODE" type="xs:long" />
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_CODE" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_CODE" msprop:Generator_ColumnPropNameInRow="PRODUCT_CODE" msprop:Generator_ColumnPropNameInTable="PRODUCT_CODEColumn" msprop:Generator_UserColumnName="PRODUCT_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NPART_QTY" msprop:Generator_ColumnVarNameInTable="columnNPART_QTY" msprop:Generator_ColumnPropNameInRow="NPART_QTY" msprop:Generator_ColumnPropNameInTable="NPART_QTYColumn" msprop:Generator_UserColumnName="NPART_QTY" type="xs:int" minOccurs="0" />
+              <xs:element name="NPART_COMMENT" msprop:Generator_ColumnVarNameInTable="columnNPART_COMMENT" msprop:Generator_ColumnPropNameInRow="NPART_COMMENT" msprop:Generator_ColumnPropNameInTable="NPART_COMMENTColumn" msprop:Generator_UserColumnName="NPART_COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobTechDetail" msprop:Generator_TableClassName="JobTechDetailDataTable" msprop:Generator_TableVarName="tableJobTechDetail" msprop:Generator_RowChangedName="JobTechDetailRowChanged" msprop:Generator_TablePropName="JobTechDetail" msprop:Generator_RowDeletingName="JobTechDetailRowDeleting" msprop:Generator_RowChangingName="JobTechDetailRowChanging" msprop:Generator_RowEvHandlerName="JobTechDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="JobTechDetailRowDeleted" msprop:Generator_RowClassName="JobTechDetailRow" msprop:Generator_UserTableName="JobTechDetail" msprop:Generator_RowEvArgName="JobTechDetailRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JTECD_CODE" msprop:Generator_ColumnVarNameInTable="columnJTECD_CODE" msprop:Generator_ColumnPropNameInRow="JTECD_CODE" msprop:Generator_ColumnPropNameInTable="JTECD_CODEColumn" msprop:Generator_UserColumnName="JTECD_CODE" type="xs:long" />
+              <xs:element name="JTEC_CODE" msprop:Generator_ColumnVarNameInTable="columnJTEC_CODE" msprop:Generator_ColumnPropNameInRow="JTEC_CODE" msprop:Generator_ColumnPropNameInTable="JTEC_CODEColumn" msprop:Generator_UserColumnName="JTEC_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_DATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_DATE" msprop:Generator_ColumnPropNameInRow="JTECD_DATE" msprop:Generator_ColumnPropNameInTable="JTECD_DATEColumn" msprop:Generator_UserColumnName="JTECD_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_TIME" msprop:Generator_ColumnVarNameInTable="columnJTECD_TIME" msprop:Generator_ColumnPropNameInRow="JTECD_TIME" msprop:Generator_ColumnPropNameInTable="JTECD_TIMEColumn" msprop:Generator_UserColumnName="JTECD_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_STATUS" msprop:Generator_ColumnVarNameInTable="columnJTECD_STATUS" msprop:Generator_ColumnPropNameInRow="JTECD_STATUS" msprop:Generator_ColumnPropNameInTable="JTECD_STATUSColumn" msprop:Generator_UserColumnName="JTECD_STATUS" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_COMMENT" msprop:Generator_ColumnVarNameInTable="columnJTECD_COMMENT" msprop:Generator_ColumnPropNameInRow="JTECD_COMMENT" msprop:Generator_ColumnPropNameInTable="JTECD_COMMENTColumn" msprop:Generator_UserColumnName="JTECD_COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CUSER" msprop:Generator_ColumnVarNameInTable="columnJTECD_CUSER" msprop:Generator_ColumnPropNameInRow="JTECD_CUSER" msprop:Generator_ColumnPropNameInTable="JTECD_CUSERColumn" msprop:Generator_UserColumnName="JTECD_CUSER" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_CDATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_CDATE" msprop:Generator_ColumnPropNameInRow="JTECD_CDATE" msprop:Generator_ColumnPropNameInTable="JTECD_CDATEColumn" msprop:Generator_UserColumnName="JTECD_CDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_TASK_CODE" msprop:Generator_ColumnVarNameInTable="columnJTECD_TASK_CODE" msprop:Generator_ColumnPropNameInRow="JTECD_TASK_CODE" msprop:Generator_ColumnPropNameInTable="JTECD_TASK_CODEColumn" msprop:Generator_UserColumnName="JTECD_TASK_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="JTECD_FFIND_CLIENT" msprop:Generator_ColumnVarNameInTable="columnJTECD_FFIND_CLIENT" msprop:Generator_ColumnPropNameInRow="JTECD_FFIND_CLIENT" msprop:Generator_ColumnPropNameInTable="JTECD_FFIND_CLIENTColumn" msprop:Generator_UserColumnName="JTECD_FFIND_CLIENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_FCALL_CMP" msprop:Generator_ColumnVarNameInTable="columnJTECD_FCALL_CMP" msprop:Generator_ColumnPropNameInRow="JTECD_FCALL_CMP" msprop:Generator_ColumnPropNameInTable="JTECD_FCALL_CMPColumn" msprop:Generator_UserColumnName="JTECD_FCALL_CMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CALL_EMP_CODE" msprop:Generator_ColumnVarNameInTable="columnJTECD_CALL_EMP_CODE" msprop:Generator_ColumnPropNameInRow="JTECD_CALL_EMP_CODE" msprop:Generator_ColumnPropNameInTable="JTECD_CALL_EMP_CODEColumn" msprop:Generator_UserColumnName="JTECD_CALL_EMP_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_FCALLBACK" msprop:Generator_ColumnVarNameInTable="columnJTECD_FCALLBACK" msprop:Generator_ColumnPropNameInRow="JTECD_FCALLBACK" msprop:Generator_ColumnPropNameInTable="JTECD_FCALLBACKColumn" msprop:Generator_UserColumnName="JTECD_FCALLBACK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CALLBACK_RESULT" msprop:Generator_ColumnVarNameInTable="columnJTECD_CALLBACK_RESULT" msprop:Generator_ColumnPropNameInRow="JTECD_CALLBACK_RESULT" msprop:Generator_ColumnPropNameInTable="JTECD_CALLBACK_RESULTColumn" msprop:Generator_UserColumnName="JTECD_CALLBACK_RESULT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_EDATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_EDATE" msprop:Generator_ColumnPropNameInRow="JTECD_EDATE" msprop:Generator_ColumnPropNameInTable="JTECD_EDATEColumn" msprop:Generator_UserColumnName="JTECD_EDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobParts" msprop:Generator_TableClassName="JobPartsDataTable" msprop:Generator_TableVarName="tableJobParts" msprop:Generator_TablePropName="JobParts" msprop:Generator_RowDeletingName="JobPartsRowDeleting" msprop:Generator_RowChangingName="JobPartsRowChanging" msprop:Generator_RowEvHandlerName="JobPartsRowChangeEventHandler" msprop:Generator_RowDeletedName="JobPartsRowDeleted" msprop:Generator_UserTableName="JobParts" msprop:Generator_RowChangedName="JobPartsRowChanged" msprop:Generator_RowEvArgName="JobPartsRowChangeEvent" msprop:Generator_RowClassName="JobPartsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JPART_CODE" msprop:Generator_ColumnVarNameInTable="columnJPART_CODE" msprop:Generator_ColumnPropNameInRow="JPART_CODE" msprop:Generator_ColumnPropNameInTable="JPART_CODEColumn" msprop:Generator_UserColumnName="JPART_CODE" type="xs:long" />
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRODUCT_CODE" msprop:Generator_ColumnVarNameInTable="columnPRODUCT_CODE" msprop:Generator_ColumnPropNameInRow="PRODUCT_CODE" msprop:Generator_ColumnPropNameInTable="PRODUCT_CODEColumn" msprop:Generator_UserColumnName="PRODUCT_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JPART_ISSUE" msprop:Generator_ColumnVarNameInTable="columnJPART_ISSUE" msprop:Generator_ColumnPropNameInRow="JPART_ISSUE" msprop:Generator_ColumnPropNameInTable="JPART_ISSUEColumn" msprop:Generator_UserColumnName="JPART_ISSUE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JPART_QTY_USED" msprop:Generator_ColumnVarNameInTable="columnJPART_QTY_USED" msprop:Generator_ColumnPropNameInRow="JPART_QTY_USED" msprop:Generator_ColumnPropNameInTable="JPART_QTY_USEDColumn" msprop:Generator_UserColumnName="JPART_QTY_USED" type="xs:int" minOccurs="0" />
+              <xs:element name="JPART_IDATE" msprop:Generator_ColumnVarNameInTable="columnJPART_IDATE" msprop:Generator_ColumnPropNameInRow="JPART_IDATE" msprop:Generator_ColumnPropNameInTable="JPART_IDATEColumn" msprop:Generator_UserColumnName="JPART_IDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VTTechDetails" msprop:Generator_TableClassName="VTTechDetailsDataTable" msprop:Generator_TableVarName="tableVTTechDetails" msprop:Generator_TablePropName="VTTechDetails" msprop:Generator_RowDeletingName="VTTechDetailsRowDeleting" msprop:Generator_RowChangingName="VTTechDetailsRowChanging" msprop:Generator_RowEvHandlerName="VTTechDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="VTTechDetailsRowDeleted" msprop:Generator_UserTableName="VTTechDetails" msprop:Generator_RowChangedName="VTTechDetailsRowChanged" msprop:Generator_RowEvArgName="VTTechDetailsRowChangeEvent" msprop:Generator_RowClassName="VTTechDetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JTEC_CODE" msprop:Generator_ColumnVarNameInTable="columnJTEC_CODE" msprop:Generator_ColumnPropNameInRow="JTEC_CODE" msprop:Generator_ColumnPropNameInTable="JTEC_CODEColumn" msprop:Generator_UserColumnName="JTEC_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_DATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_DATE" msprop:Generator_ColumnPropNameInRow="JTECD_DATE" msprop:Generator_ColumnPropNameInTable="JTECD_DATEColumn" msprop:Generator_UserColumnName="JTECD_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_TIME" msprop:Generator_ColumnVarNameInTable="columnJTECD_TIME" msprop:Generator_ColumnPropNameInRow="JTECD_TIME" msprop:Generator_ColumnPropNameInTable="JTECD_TIMEColumn" msprop:Generator_UserColumnName="JTECD_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_STATUS" msprop:Generator_ColumnVarNameInTable="columnJTECD_STATUS" msprop:Generator_ColumnPropNameInRow="JTECD_STATUS" msprop:Generator_ColumnPropNameInTable="JTECD_STATUSColumn" msprop:Generator_UserColumnName="JTECD_STATUS" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_COMMENT" msprop:Generator_ColumnVarNameInTable="columnJTECD_COMMENT" msprop:Generator_ColumnPropNameInRow="JTECD_COMMENT" msprop:Generator_ColumnPropNameInTable="JTECD_COMMENTColumn" msprop:Generator_UserColumnName="JTECD_COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CUSER" msprop:Generator_ColumnVarNameInTable="columnJTECD_CUSER" msprop:Generator_ColumnPropNameInRow="JTECD_CUSER" msprop:Generator_ColumnPropNameInTable="JTECD_CUSERColumn" msprop:Generator_UserColumnName="JTECD_CUSER" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_CDATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_CDATE" msprop:Generator_ColumnPropNameInRow="JTECD_CDATE" msprop:Generator_ColumnPropNameInTable="JTECD_CDATEColumn" msprop:Generator_UserColumnName="JTECD_CDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTECD_TASK_CODE" msprop:Generator_ColumnVarNameInTable="columnJTECD_TASK_CODE" msprop:Generator_ColumnPropNameInRow="JTECD_TASK_CODE" msprop:Generator_ColumnPropNameInTable="JTECD_TASK_CODEColumn" msprop:Generator_UserColumnName="JTECD_TASK_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="JTECD_FFIND_CLIENT" msprop:Generator_ColumnVarNameInTable="columnJTECD_FFIND_CLIENT" msprop:Generator_ColumnPropNameInRow="JTECD_FFIND_CLIENT" msprop:Generator_ColumnPropNameInTable="JTECD_FFIND_CLIENTColumn" msprop:Generator_UserColumnName="JTECD_FFIND_CLIENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_FCALL_CMP" msprop:Generator_ColumnVarNameInTable="columnJTECD_FCALL_CMP" msprop:Generator_ColumnPropNameInRow="JTECD_FCALL_CMP" msprop:Generator_ColumnPropNameInTable="JTECD_FCALL_CMPColumn" msprop:Generator_UserColumnName="JTECD_FCALL_CMP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CALL_EMP_CODE" msprop:Generator_ColumnVarNameInTable="columnJTECD_CALL_EMP_CODE" msprop:Generator_ColumnPropNameInRow="JTECD_CALL_EMP_CODE" msprop:Generator_ColumnPropNameInTable="JTECD_CALL_EMP_CODEColumn" msprop:Generator_UserColumnName="JTECD_CALL_EMP_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JTECD_FCALLBACK" msprop:Generator_ColumnVarNameInTable="columnJTECD_FCALLBACK" msprop:Generator_ColumnPropNameInRow="JTECD_FCALLBACK" msprop:Generator_ColumnPropNameInTable="JTECD_FCALLBACKColumn" msprop:Generator_UserColumnName="JTECD_FCALLBACK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_CALLBACK_RESULT" msprop:Generator_ColumnVarNameInTable="columnJTECD_CALLBACK_RESULT" msprop:Generator_ColumnPropNameInRow="JTECD_CALLBACK_RESULT" msprop:Generator_ColumnPropNameInTable="JTECD_CALLBACK_RESULTColumn" msprop:Generator_UserColumnName="JTECD_CALLBACK_RESULT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JTECD_EDATE" msprop:Generator_ColumnVarNameInTable="columnJTECD_EDATE" msprop:Generator_ColumnPropNameInRow="JTECD_EDATE" msprop:Generator_ColumnPropNameInTable="JTECD_EDATEColumn" msprop:Generator_UserColumnName="JTECD_EDATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobPayments" msprop:Generator_TableClassName="JobPaymentsDataTable" msprop:Generator_TableVarName="tableJobPayments" msprop:Generator_TablePropName="JobPayments" msprop:Generator_RowDeletingName="JobPaymentsRowDeleting" msprop:Generator_RowChangingName="JobPaymentsRowChanging" msprop:Generator_RowEvHandlerName="JobPaymentsRowChangeEventHandler" msprop:Generator_RowDeletedName="JobPaymentsRowDeleted" msprop:Generator_UserTableName="JobPayments" msprop:Generator_RowChangedName="JobPaymentsRowChanged" msprop:Generator_RowEvArgName="JobPaymentsRowChangeEvent" msprop:Generator_RowClassName="JobPaymentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYMENT_DATE" msprop:Generator_ColumnVarNameInTable="columnPAYMENT_DATE" msprop:Generator_ColumnPropNameInRow="PAYMENT_DATE" msprop:Generator_ColumnPropNameInTable="PAYMENT_DATEColumn" msprop:Generator_UserColumnName="PAYMENT_DATE" type="xs:dateTime" />
+              <xs:element name="PAYMENT_CURR" msprop:Generator_ColumnVarNameInTable="columnPAYMENT_CURR" msprop:Generator_ColumnPropNameInRow="PAYMENT_CURR" msprop:Generator_ColumnPropNameInTable="PAYMENT_CURRColumn" msprop:Generator_UserColumnName="PAYMENT_CURR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PART_VALUE" msprop:Generator_ColumnVarNameInTable="columnPART_VALUE" msprop:Generator_ColumnPropNameInRow="PART_VALUE" msprop:Generator_ColumnPropNameInTable="PART_VALUEColumn" msprop:Generator_UserColumnName="PART_VALUE" type="xs:double" minOccurs="0" />
+              <xs:element name="LABOR_VALUE" msprop:Generator_ColumnVarNameInTable="columnLABOR_VALUE" msprop:Generator_ColumnPropNameInRow="LABOR_VALUE" msprop:Generator_ColumnPropNameInTable="LABOR_VALUEColumn" msprop:Generator_UserColumnName="LABOR_VALUE" type="xs:double" minOccurs="0" />
+              <xs:element name="OTHER_VALUE" msprop:Generator_ColumnVarNameInTable="columnOTHER_VALUE" msprop:Generator_ColumnPropNameInRow="OTHER_VALUE" msprop:Generator_ColumnPropNameInTable="OTHER_VALUEColumn" msprop:Generator_UserColumnName="OTHER_VALUE" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="JobStatus" msprop:Generator_TableClassName="JobStatusDataTable" msprop:Generator_TableVarName="tableJobStatus" msprop:Generator_RowChangedName="JobStatusRowChanged" msprop:Generator_TablePropName="JobStatus" msprop:Generator_RowDeletingName="JobStatusRowDeleting" msprop:Generator_RowChangingName="JobStatusRowChanging" msprop:Generator_RowEvHandlerName="JobStatusRowChangeEventHandler" msprop:Generator_RowDeletedName="JobStatusRowDeleted" msprop:Generator_RowClassName="JobStatusRow" msprop:Generator_UserTableName="JobStatus" msprop:Generator_RowEvArgName="JobStatusRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JTECD_STATUS" msprop:Generator_ColumnVarNameInTable="columnJTECD_STATUS" msprop:Generator_ColumnPropNameInRow="JTECD_STATUS" msprop:Generator_ColumnPropNameInTable="JTECD_STATUSColumn" msprop:Generator_UserColumnName="JTECD_STATUS" type="xs:int" />
+              <xs:element name="JTECD_STATUS_DESC" msprop:Generator_ColumnVarNameInTable="columnJTECD_STATUS_DESC" msprop:Generator_ColumnPropNameInRow="JTECD_STATUS_DESC" msprop:Generator_ColumnPropNameInTable="JTECD_STATUS_DESCColumn" msprop:Generator_UserColumnName="JTECD_STATUS_DESC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Payment" msprop:Generator_TableClassName="PaymentDataTable" msprop:Generator_TableVarName="tablePayment" msprop:Generator_TablePropName="Payment" msprop:Generator_RowDeletingName="PaymentRowDeleting" msprop:Generator_RowChangingName="PaymentRowChanging" msprop:Generator_RowEvHandlerName="PaymentRowChangeEventHandler" msprop:Generator_RowDeletedName="PaymentRowDeleted" msprop:Generator_UserTableName="Payment" msprop:Generator_RowChangedName="PaymentRowChanged" msprop:Generator_RowEvArgName="PaymentRowChangeEvent" msprop:Generator_RowClassName="PaymentRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JOB_CODE" msprop:Generator_ColumnVarNameInTable="columnJOB_CODE" msprop:Generator_ColumnPropNameInRow="JOB_CODE" msprop:Generator_ColumnPropNameInTable="JOB_CODEColumn" msprop:Generator_UserColumnName="JOB_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PAYMENT_DATE" msprop:Generator_ColumnVarNameInTable="columnPAYMENT_DATE" msprop:Generator_ColumnPropNameInRow="PAYMENT_DATE" msprop:Generator_ColumnPropNameInTable="PAYMENT_DATEColumn" msprop:Generator_UserColumnName="PAYMENT_DATE" type="xs:dateTime" />
+              <xs:element name="PAYMENT_CURR" msprop:Generator_ColumnVarNameInTable="columnPAYMENT_CURR" msprop:Generator_ColumnPropNameInRow="PAYMENT_CURR" msprop:Generator_ColumnPropNameInTable="PAYMENT_CURRColumn" msprop:Generator_UserColumnName="PAYMENT_CURR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PART_VALUE" msprop:Generator_ColumnVarNameInTable="columnPART_VALUE" msprop:Generator_ColumnPropNameInRow="PART_VALUE" msprop:Generator_ColumnPropNameInTable="PART_VALUEColumn" msprop:Generator_UserColumnName="PART_VALUE" type="xs:double" minOccurs="0" />
+              <xs:element name="LABOR_VALUE" msprop:Generator_ColumnVarNameInTable="columnLABOR_VALUE" msprop:Generator_ColumnPropNameInRow="LABOR_VALUE" msprop:Generator_ColumnPropNameInTable="LABOR_VALUEColumn" msprop:Generator_UserColumnName="LABOR_VALUE" type="xs:double" minOccurs="0" />
+              <xs:element name="OTHER_VALUE" msprop:Generator_ColumnVarNameInTable="columnOTHER_VALUE" msprop:Generator_ColumnPropNameInRow="OTHER_VALUE" msprop:Generator_ColumnPropNameInTable="OTHER_VALUEColumn" msprop:Generator_UserColumnName="OTHER_VALUE" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Warrenty" msprop:Generator_TableClassName="WarrentyDataTable" msprop:Generator_TableVarName="tableWarrenty" msprop:Generator_RowChangedName="WarrentyRowChanged" msprop:Generator_TablePropName="Warrenty" msprop:Generator_RowDeletingName="WarrentyRowDeleting" msprop:Generator_RowChangingName="WarrentyRowChanging" msprop:Generator_RowEvHandlerName="WarrentyRowChangeEventHandler" msprop:Generator_RowDeletedName="WarrentyRowDeleted" msprop:Generator_RowClassName="WarrentyRow" msprop:Generator_UserTableName="Warrenty" msprop:Generator_RowEvArgName="WarrentyRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WAR_SN" msprop:Generator_ColumnVarNameInTable="columnWAR_SN" msprop:Generator_ColumnPropNameInRow="WAR_SN" msprop:Generator_ColumnPropNameInTable="WAR_SNColumn" msprop:Generator_UserColumnName="WAR_SN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WAR_MODEL" msprop:Generator_ColumnVarNameInTable="columnWAR_MODEL" msprop:Generator_ColumnPropNameInRow="WAR_MODEL" msprop:Generator_ColumnPropNameInTable="WAR_MODELColumn" msprop:Generator_UserColumnName="WAR_MODEL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WAR_NBR" msprop:Generator_ColumnVarNameInTable="columnWAR_NBR" msprop:Generator_ColumnPropNameInRow="WAR_NBR" msprop:Generator_ColumnPropNameInTable="WAR_NBRColumn" msprop:Generator_UserColumnName="WAR_NBR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WAR_SDATE" msprop:Generator_ColumnVarNameInTable="columnWAR_SDATE" msprop:Generator_ColumnPropNameInRow="WAR_SDATE" msprop:Generator_ColumnPropNameInTable="WAR_SDATEColumn" msprop:Generator_UserColumnName="WAR_SDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WAR_EDATE" msprop:Generator_ColumnVarNameInTable="columnWAR_EDATE" msprop:Generator_ColumnPropNameInRow="WAR_EDATE" msprop:Generator_ColumnPropNameInTable="WAR_EDATEColumn" msprop:Generator_UserColumnName="WAR_EDATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PartReturned" msprop:Generator_TableClassName="PartReturnedDataTable" msprop:Generator_TableVarName="tablePartReturned" msprop:Generator_TablePropName="PartReturned" msprop:Generator_RowDeletingName="PartReturnedRowDeleting" msprop:Generator_RowChangingName="PartReturnedRowChanging" msprop:Generator_RowEvHandlerName="PartReturnedRowChangeEventHandler" msprop:Generator_RowDeletedName="PartReturnedRowDeleted" msprop:Generator_UserTableName="PartReturned" msprop:Generator_RowChangedName="PartReturnedRowChanged" msprop:Generator_RowEvArgName="PartReturnedRowChangeEvent" msprop:Generator_RowClassName="PartReturnedRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JRET_CODE" msprop:Generator_ColumnVarNameInTable="columnJRET_CODE" msprop:Generator_ColumnPropNameInRow="JRET_CODE" msprop:Generator_ColumnPropNameInTable="JRET_CODEColumn" msprop:Generator_UserColumnName="JRET_CODE" type="xs:long" />
+              <xs:element name="JPART_CODE" msprop:Generator_ColumnVarNameInTable="columnJPART_CODE" msprop:Generator_ColumnPropNameInRow="JPART_CODE" msprop:Generator_ColumnPropNameInTable="JPART_CODEColumn" msprop:Generator_UserColumnName="JPART_CODE" type="xs:long" minOccurs="0" />
+              <xs:element name="JRET_NBR" msprop:Generator_ColumnVarNameInTable="columnJRET_NBR" msprop:Generator_ColumnPropNameInRow="JRET_NBR" msprop:Generator_ColumnPropNameInTable="JRET_NBRColumn" msprop:Generator_UserColumnName="JRET_NBR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JRET_RQTY" msprop:Generator_ColumnVarNameInTable="columnJRET_RQTY" msprop:Generator_ColumnPropNameInRow="JRET_RQTY" msprop:Generator_ColumnPropNameInTable="JRET_RQTYColumn" msprop:Generator_UserColumnName="JRET_RQTY" type="xs:int" minOccurs="0" />
+              <xs:element name="JRET_IDATE" msprop:Generator_ColumnVarNameInTable="columnJRET_IDATE" msprop:Generator_ColumnPropNameInRow="JRET_IDATE" msprop:Generator_ColumnPropNameInTable="JRET_IDATEColumn" msprop:Generator_UserColumnName="JRET_IDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UPDATED_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInRow="LAST_UPDATED_DATE" msprop:Generator_ColumnPropNameInTable="LAST_UPDATED_DATEColumn" msprop:Generator_UserColumnName="LAST_UPDATED_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Company" msprop:Generator_TableClassName="CompanyDataTable" msprop:Generator_TableVarName="tableCompany" msprop:Generator_TablePropName="Company" msprop:Generator_RowDeletingName="CompanyRowDeleting" msprop:Generator_RowChangingName="CompanyRowChanging" msprop:Generator_RowEvHandlerName="CompanyRowChangeEventHandler" msprop:Generator_RowDeletedName="CompanyRowDeleted" msprop:Generator_UserTableName="Company" msprop:Generator_RowChangedName="CompanyRowChanged" msprop:Generator_RowEvArgName="CompanyRowChangeEvent" msprop:Generator_RowClassName="CompanyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CO_CODE" msprop:Generator_ColumnVarNameInTable="columnCO_CODE" msprop:Generator_ColumnPropNameInRow="CO_CODE" msprop:Generator_ColumnPropNameInTable="CO_CODEColumn" msprop:Generator_UserColumnName="CO_CODE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CO_NAME" msprop:Generator_ColumnVarNameInTable="columnCO_NAME" msprop:Generator_ColumnPropNameInRow="CO_NAME" msprop:Generator_ColumnPropNameInTable="CO_NAMEColumn" msprop:Generator_UserColumnName="CO_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BR_CODE" msprop:Generator_ColumnVarNameInTable="columnBR_CODE" msprop:Generator_ColumnPropNameInRow="BR_CODE" msprop:Generator_ColumnPropNameInTable="BR_CODEColumn" msprop:Generator_UserColumnName="BR_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BR_NAME" msprop:Generator_ColumnVarNameInTable="columnBR_NAME" msprop:Generator_ColumnPropNameInRow="BR_NAME" msprop:Generator_ColumnPropNameInTable="BR_NAMEColumn" msprop:Generator_UserColumnName="BR_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CO_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnCO_ADDRESS" msprop:Generator_ColumnPropNameInRow="CO_ADDRESS" msprop:Generator_ColumnPropNameInTable="CO_ADDRESSColumn" msprop:Generator_UserColumnName="CO_ADDRESS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CO_VATREF" msprop:Generator_ColumnVarNameInTable="columnCO_VATREF" msprop:Generator_ColumnPropNameInRow="CO_VATREF" msprop:Generator_ColumnPropNameInTable="CO_VATREFColumn" msprop:Generator_UserColumnName="CO_VATREF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Employee" />
+      <xs:field xpath="mstns:EMP_CODE" />
+    </xs:unique>
+    <xs:unique name="Job_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Job" />
+      <xs:field xpath="mstns:JOB_CODE" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="JobTech_JobTechDetail" msdata:parent="JobTech" msdata:child="JobTechDetail" msdata:parentkey="JTEC_CODE" msdata:childkey="JTEC_CODE" msprop:Generator_UserChildTable="JobTechDetail" msprop:Generator_ChildPropName="GetJobTechDetailRows" msprop:Generator_UserRelationName="JobTech_JobTechDetail" msprop:Generator_RelationVarName="relationJobTech_JobTechDetail" msprop:Generator_UserParentTable="JobTech" msprop:Generator_ParentPropName="JobTechRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
